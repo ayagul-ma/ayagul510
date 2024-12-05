@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://s3-alpha-sig.figma.com/img/7a7d/1dd1/098d2481fb0f847b6ba2c5d7bbe0db4b?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PdTMI9jQkLyPGg2DXwAkvuwN1gBs7ryw~nSi51D~US41Dl0B9g2tyujJrQvwXE3IlbTn3bkemk-ZXb0sdxmzuZ7bkJWZ9BZL-M61Q3ue04Q6cUq3lia5q-ahUPEd8OzFS3GG5mUPEwYiUUPVK4YLE9S924VikAmodsZ~DY01YRHqlNfQm78sZGvFhtIBblO~qWJKEs~qwdKFmVCZMVG-kPEI3n7k34dEpn8UAKq-RJbuw1-d5ZxLtScM1hi~oPeXySirL3OF0E4hgpnw~DtwWhCSTotd3HfajjDOlaa52Hwa4nVUVHkRRYi2nyQecEylfShREwdcBVVGLfF3iwjoyw__);
+    background-size: cover;
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+ 
+.main{
+    padding-top: 170px;
+    text-align: center;
+    
+
+}
+.main h3{ 
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #E8EDF2;
+    font-family: 'Bebas Neue';
+    margin: 0%;
+}
+.main h2{ 
+    padding-left: 80px;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 250px;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    color: #FDFDFD;
+    margin: 0%;
+
+}
+.main h1{
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    display: flex;
+   justify-content: space-around;
+    position: fixed;
+    margin-top: 30px;
+  
+}
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    gap: 20px;
+}
+.text p{
+    border-radius: 40px;
+    background-color: #E8EDF2;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+   
+}
+.logo{ 
+    width: 101px;
+    height: 35px;
+    
+}
+.Box{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+    gap: 20px;
+
+
+}
+
+.Box :hover{
+ opacity: 0.33;
+
+}
+
+.card-1{
+    width: 252px;
+    height: 370px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/9411/7af0/fae2d95b54ef6842a38934433c1d99d7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j6YiKqaPVJ7vUcEjHiCk8V5APzkPes5eI7upqMvcN0CnFP1j7-Hh9GveYN~6h2O-gnh3y2YoUp1AmdTyzBZQTt7~tFsNqiOlYmFLqd14uNUROcJzWkwSlnNXZ2L0~LvU634vjuyQb~h-lAYMOZJpU7BnCmukya6gNWYQGqE3xfXPF9EPWYMETVdRbP2VbihH6hzi7ZLO0BpY9fLlFJJpZts17B6hOa8ssOdUQm~sPVvtOWlepE1icJcTMuYNlNUTqMgJykJAx8JOy3LpphzVFOWWh64QKoKOpFW2bTnVzAN19u~Et2TvhSpU2~4456PXvvkwuhZsHA2OsOwbrPcHfg__);
+    background-size: cover;
+    top: -10px;
+    left: -10px;
+    border-radius: 20px;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+    box-shadow: 8px 8px 0px 0px #9DB8DA, 8px 8px 0px 0px #9DB8DA; 
+}
+.card p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+}
+.card-2{
+    width: 252px;
+    height: 370px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/e124/d31b/4b7edc8a8926233d613c437affc8b621?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n~2fkiB1rZgiEdzCMha9Uo8-43DRcDCKmA-WBIUIDM~AsTGrws2kqku6K9nFBLdyenp~YpB-86R7PU5e0sZYZnropDZ1rNByXMOY3LBF8NslbdpzPeGpXMSLRXRtNFDvcGoOEImV8xCUtaHJAyu9K1~kC9F0ag~3SBYTlHYzozLFIEpoS5CPbpfhe7tKyjkwW5fhwd~BuOQxV2zs0x-edzcpr~tT0mCUly9NE30IZIG3KbwoT0Is5WhbgKpHQRQCrZDJ5PzBdlVeTpqV1Zy0ErgMPHJBkevID5~ucRYoSMMuRe2jekzqDylXxEtsLtcxNKP-qN0Wrxck-nxx68YTpQ__);
+    background-size: cover;
+    top: -10px;
+    left: -10px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #9DB8DA, 8px 8px 0px 0px #9DB8DA
+    
+}
+.card-3{
+    width: 252px;
+    height: 370px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/a4d6/0416/d42b9ac033e9ea4869926a93ad64d227?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GxyJ~y1qLLP~KhdsJkV9oleyKhANT0UUIOdLaOFMIwyeUSIQnMAivl41kfeRa0tJ5aDTPZM48hTZrEHaXa8M53y2PMX-zJT2BKp41jh6TrFU-tM3BuEn6grnjRp8ehbXVHlgB2GJwJ08YqBjBkpIEwM-LayF4EKXmXEfwGYRi6WkKhyJuA3mw7fjLZ0SHslRq4nt72J2z06N3KmIwXAScsOII-H5A9A9jPqHc4~5V0oICuQTaomQpfSxCfIJuGJL~U8aqm2-EztxZKX01ePx9d-05IWaTYoecYBtCCetDL~NjWVRWq8iYPe-xR-kg2WYsfSvmFCV39aUQjL28sbXVQ__);
+    background-size: cover;
+    top: -10px;
+    left: -10px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #9DB8DA, 8px 8px 0px 0px #9DB8DA
+
+}
+.card-4{
+    width: 252px;
+    height: 370px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/d2b9/7a2b/78cccaa3f6ec592813187ea25729681e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HL8whnhAzG46qIxI9tolF~eTqvoqIjC1hsj7~YHC2lnOYnNpcGXHx~wDCbnvNtdz7C0La8zO7P1nv2bAtYhX1WBP~Vw5sGTcIKr1pebPiElvAw~uysK3GAGoAMITSBygflFHSSiQ95eVd6RAjDmKwDt~soL18PDfo0MXGY90i-i15wwnmtctbiIseUbxCvGuzJzgXxWq06pbeNwd9RjE9ckdE3w9kXRbmKCED58cPmar27niBiun0zEakVJynPNaIynC7aYRoIbocEHwnVfzHkwAfGdJnkHcv7fw5IYG82orHRIVpwt7AFb8h7f2E1pu9GD9DXOSHAhDPS4Lzo0Gzw__);
+    background-size: cover;
+    top: -10px;
+    left: -10px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #9DB8DA, 8px 8px 0px 0px #9DB8DA;
+    
+
+}
+.section-two{
+    background-image: url(https://s3-alpha-sig.figma.com/img/0a01/4441/f3b23c9e936f611b9b24ad9f5db5c0df?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N4IrpUy8C4R8te1OmBhxxhyKXRGXAXb5HWxQcDW73nkz1ayslIDv~L6hx-SNxRfooQgPY8hZpaK3u0dpNfwSlKhyEnL4oKkx2tkWHcpisfpk7s~IRTjr0-gsQbYkoeYi~3fqfgfIG-lINO-N04dWVmtbibJOnRFXqCqyNnuc3HrnbPvhagB-6x5-fUym5yrDh1bG44UNV-it9CZb7aV-9WXoU-TW8SWaqt46KlWqJFeFpTOgqkTh4WAzIZCtHLM9mJe4Jhcmj6VlxbxS-7~M8A9~~8KIRuW842NipKYtutlg7CzssB6yGwE875IF4Z2ZURdVPxIij732PfUP5s3PkQ__);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 120px;
+    margin: 0%;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 0%;
+}
